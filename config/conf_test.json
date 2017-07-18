@@ -1,0 +1,48 @@
+{
+  "gitRepo": "git@github.com:samsung-cnct/k2-tools.git",
+  "filePath":"./Dockerfile",
+  "managedVersions":[
+    {
+      "name": "K8S 1.6 train",
+      "regexCoordinate" :"K8S_VERSION=v",
+      "gitRepoURL": "someurl",
+      "versionPattern": "Major.Minor.Release"
+    },
+    {
+      "name": "K8S 1.6 train",
+      "regexCoordinate" :"K8S_VERSION_1_6=v",
+      "gitRepoURL": "someurl",
+      "versionPattern": "Major.Minor.Release"
+    },
+    {
+      "name": "K8S 1.4 train",
+      "regexCoordinate" :"K8S_VERSION_1_4=v",
+      "gitRepoURL": "someurl",
+      "versionPattern": "Major.Minor.Release"
+    },
+    {
+      "name": "K8S 1.5 train",
+      "regexCoordinate" :"K8S_VERSION_1_5=v",
+      "gitRepoURL": "someurl",
+      "versionPattern": "Major.Minor.Release"
+    },
+    {
+      "name": "K8S Helm 1.4 train",
+      "regexCoordinate" :"K8S_HELM_VERSION_1_4=v",
+      "gitRepoURL": "someurl",
+      "versionPattern": "Major.Minor.Release"
+    },
+    {
+      "name": "K8S Helm 1.5 train",
+      "regexCoordinate" :"K8S_HELM_VERSION_1_5=v",
+      "gitRepoURL": "someurl",
+      "versionPattern": "Major.Minor.Release"
+    },
+    {
+      "name": "K8S Helm 1.6 train",
+      "regexCoordinate" :"K8S_HELM_VERSION_1_6=v",
+      "gitRepoURL": "someurl",
+      "versionPattern": "Major.Minor.Release"
+    }
+  ]
+}
